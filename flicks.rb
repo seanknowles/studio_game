@@ -6,7 +6,5 @@ puts 'Mikey\'s favorite movie is ' + movie
 
 rank = 10
 
-puts movie + ' has a rank of ' + rank.to_s
+puts "#{movie} has a rank of #{rank}"
 
-feed = Web.fetch("cnn.com", :as => Web::Feed)
-puts feed
